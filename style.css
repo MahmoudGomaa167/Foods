@@ -31,7 +31,7 @@ html{
     background-color: #000;
     position: fixed;
     top: -14rem;
-    z-index: 100;
+    z-index: 1000;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -94,7 +94,7 @@ html{
 .menu{
     width: 4rem;
     height: 6rem;
-    background-color: #000;
+    background-color: #eee;
     position: fixed;
     top: 1rem;
     left: 5rem;
@@ -415,7 +415,7 @@ footer{
 
 .copyright{
     position: absolute;
-    bottom: 3rem;
+    bottom: 4rem;
     font-size: 1.7rem;
     font-weight: 200;
     color: #eee;
@@ -424,6 +424,22 @@ footer{
     padding-top: 6rem;
     width: 100%;
     text-align: center;
+}
+
+.developer{
+    position: absolute;
+    bottom: 1rem;
+    font-size: 2rem;
+    font-weight: 400;
+    color: #eee;
+    letter-spacing: 0.1rem;
+    width: 100%;
+    text-align: center;
+}
+
+.developer span{
+    color: #a79a2d;
+    font-weight: 900;
 }
 /* End of Footer */
 
